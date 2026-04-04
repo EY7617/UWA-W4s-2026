@@ -51,7 +51,7 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: #16a836;
+    background: #17862f;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -79,6 +79,10 @@ nav img{
     font-family: "Roboto", sans-serif;
 }
 
+nav .fa{
+    display: none;
+}
+
 @media (max-width: 700px){
     .text-box h1{
         font-size: 25px;
@@ -88,11 +92,21 @@ nav img{
     }
     .nav-links{
         position: absolute ;
-        background: #16a836;
+        background: #17862f;
         height: 100vh;
         width: 200px;
         top: 0;
-        right: 0px;
+        right: -200px;
         text-align: left;
+    }
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
     }
 }
