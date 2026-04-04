@@ -145,6 +145,8 @@ tr:nth-child(even) {
   background-color: #e2f0f0;
 }
 
+tr:hover {background-color: #cae8c6;}
+
 table {
   width: 100%;
   margin-top: 20px;
