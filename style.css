@@ -112,3 +112,15 @@ nav .fa-solid{
         padding: 40px;
     }
 }
+
+/* Section for fixtures */
+.sub-header{
+    width: 100%;
+    min-height: 50vh;
+    background-color: bisque;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: black;
+}
