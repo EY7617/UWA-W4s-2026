@@ -13,8 +13,8 @@
         <section class="header">
             <nav>
                 <a href="index.html"><img src="images/wrasse.jpg"></a>
-                <div class="nav-links">
-                    <i class="fa fa-times"></i>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
                     <!-- Navigation links go here -->
                      <ul>
                         <li><a href="">Home</a></li>
@@ -22,11 +22,28 @@
                         <li><a href="">Contact</a></li>
                      </ul>
                 </div>
-                <i class="fa fa-align-right"></i>
+                <i class="fa fa-align-right" onclick="showMenu()"></i>
             </nav>
         <div class="text-box">
             <h1>UWA Women's 4s 2026</h1>
             <p> Welcome to the least official website you will ever lay your eyes on. <br> It serves no real purpose as all of the information you see here is accessible elsewhere.</p>
-    </div>
+    </div> 
+    </section>
+    <!-- JavaScript for Toggle Menu -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = 
+        "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
     </body>
+
+
 </html>
