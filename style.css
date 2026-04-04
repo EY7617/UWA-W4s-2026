@@ -79,7 +79,7 @@ nav img{
     font-family: "Roboto", sans-serif;
 }
 
-nav .fa{
+nav .fa-solid{
     display: none;
 }
 
@@ -101,7 +101,7 @@ nav .fa{
         z-index: 2;
         transition: right 0.3s ease;
     }
-    nav .fa{
+    nav .fa-solid{
         display: block;
         color: #fff;
         margin: 10px;
@@ -109,6 +109,6 @@ nav .fa{
         cursor: pointer;
     }
     .nav-links ul{
-        padding: 30px;
+        padding: 40px;
     }
 }
