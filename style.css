@@ -13,10 +13,7 @@
 }
 }
 /* Stop horizontal scrolling */
-html, body {
-    max-width: 100%;
-    overflow: hidden;
-}
+
 
 .header{
     width: 100%;
@@ -115,6 +112,10 @@ nav .fa-solid{
     }
     .nav-links ul{
         padding: 40px;
+    }
+    html, body{
+        overflow-x: hidden;
+        min-width: 700px;
     }
 }
 
