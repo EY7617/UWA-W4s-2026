@@ -34,13 +34,13 @@ nav img{
 .nav-links{
    flex: 1;
    text-align: right;
+   font-family: "saira-stencil-fonts", sans-serif;
 }
 .nav-links ul li{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
-    font-family: "saira-stencil-fonts", sans-serif;
 }
 .nav-links ul li a{
     color: #fff;
