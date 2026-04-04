@@ -40,7 +40,7 @@ nav img{
     display: inline-block;
     padding: 8px 12px;
     position: relative;
-    font: "saira-stencil-fonts";
+    font-family: "saira-stencil-fonts", sans-serif;
 }
 .nav-links ul li a{
     color: #fff;
