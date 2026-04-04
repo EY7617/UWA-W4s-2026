@@ -117,10 +117,16 @@ nav .fa-solid{
 .sub-header{
     width: 100%;
     min-height: 50vh;
-    background-color: bisque;
+    background-color: rgb(197, 225, 255);
     background-position: center;
     background-size: cover;
     position: relative;
     text-align: center;
     color: black;
+}
+
+/* Section for fixtures */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
