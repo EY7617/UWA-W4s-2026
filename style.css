@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+.saira-stencil-fonts {
+  font-family: "Saira Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 .header{
     width: 100%;
@@ -36,5 +44,4 @@ nav img{
     color: #fff;
     text-decoration: none;
     font-size: 13px;
-    font-family: ;
 }
