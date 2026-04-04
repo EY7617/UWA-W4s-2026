@@ -111,9 +111,9 @@ nav .fa-solid{
     .nav-links ul{
         padding: 40px;
     }
-    html, body{
+    /*html, body{
         overflow-x: hidden;
-       /* min-width: 700px; */
+        min-width: 700px; */
     }
 }
 
