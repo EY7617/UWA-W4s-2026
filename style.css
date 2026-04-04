@@ -159,3 +159,7 @@ table {
   margin-right: auto;
   max-width: 900px;
 }
+
+.caution {
+  font-size: 12px;
+}
