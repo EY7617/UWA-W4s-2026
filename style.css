@@ -113,7 +113,7 @@ nav .fa-solid{
     }
     html, body{
         overflow-x: hidden;
-        min-width: 700px;
+       /* min-width: 700px; */
     }
 }
 
