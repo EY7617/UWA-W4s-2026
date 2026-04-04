@@ -43,5 +43,14 @@ nav img{
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 17px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #16a836;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
 }
