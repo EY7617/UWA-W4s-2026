@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+
 .saira-stencil-fonts {
   font-family: "Saira Stencil", sans-serif;
   font-optical-sizing: auto;
@@ -10,6 +10,7 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
 }
 
 .header{
