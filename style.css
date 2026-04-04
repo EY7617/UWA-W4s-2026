@@ -3,12 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .header{
     width: 100%;
     min-height: 100vh;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/team.jpeg);
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+}
+.nav-links{
+   flex: 1;
+   text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
     position: relative;
 }
