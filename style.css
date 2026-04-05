@@ -169,12 +169,12 @@ table {
 }
 
 /* Section for turf fees */
-.container {
+.iframe-container {
    width: 100%;
     text-align: center;
 }
 
-.container iframe{
+.iframe-container iframe{
     margin: 0 auto;
     display: block;
 }
