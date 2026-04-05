@@ -347,7 +347,7 @@ img{
 }
 .gallery_column {
     display: flex;
-    flex-basis: 31%;
+    flex-basis: 33.33%;
     flex-direction: column;
     padding: 5px;
 }
