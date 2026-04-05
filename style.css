@@ -332,6 +332,9 @@ img{
     padding: 5px;
     vertical-align: middle;
 }
+.img:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
 .gallery_container {
     background-color: #fff;
     display : flex;
