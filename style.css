@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
+}
 
 .saira-stencil-fonts {
   font-family: "Saira Stencil", sans-serif;
@@ -10,7 +12,6 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-}
 }
 
 .header{
@@ -100,6 +101,7 @@ nav .fa-solid{
         text-align: left;
         z-index: 2;
         transition: right 0.3s ease;
+        display: none;
     }
     nav .fa-solid{
         display: block;
