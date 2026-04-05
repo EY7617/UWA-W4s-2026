@@ -118,7 +118,7 @@ nav .fa-solid{
 .sub-header{
     width: 100%;
     min-height: 30vh;
-    background-color: rgba(42, 123, 155, 1);
+    background-color: rgb(104, 174, 202);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -189,7 +189,7 @@ table {
 .fee_graph {
     width: 100%;
     min-height: 50vh;
-    background: linear-gradient(180deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    background: linear-gradient(180deg,rgb(104, 174, 202) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -199,7 +199,6 @@ table {
         font-size: 45px;
         font-family: "Saira Stencil", sans-serif;
         padding-top: 20px;
-        color: #fff;
     }
     h3{
         font-size: 20px;
