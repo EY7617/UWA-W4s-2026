@@ -174,7 +174,7 @@ table {
     text-align: center;
 }
 
-.iframe-container iframe{
+.iframe-container, iframe{
     margin: 0 auto;
     display: block;
 }
