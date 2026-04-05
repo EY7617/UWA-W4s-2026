@@ -163,3 +163,11 @@ table {
 .caution {
   font-size: 12px;
 }
+
+/* Section for turf fees */
+iframe {
+  width: 100%;
+  height: 500px;
+  border: none;
+  margin-top: 20px;
+}
