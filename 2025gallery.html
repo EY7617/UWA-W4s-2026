@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        <title> UWA Women's 4s 2026 </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/7ae71d6bec.js" crossorigin="anonymous"></script>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <section class="header">
+            <nav>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-x" style="color: #fff;" onclick="hideMenu()"></i>
+                    <!-- Navigation links go here -->
+                     <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="fixtures.html">Fixtures and Events</a></li>
+                        <li><a href="turf_fees.html">Turf Fees</a></li>
+                        <li><a href="2025gallery.html">2025 Gallery</a></li>
+                     </ul>
+                </div>
+                <i class="fa-solid fa-bars" style="color: #fff;" onclick="showMenu()"></i>
+            </nav>
+    </div> 
+    </section>
+
+    
+    <!-- JavaScript for Toggle Menu -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = 
+        "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+    </body>
+
+
+</html>
