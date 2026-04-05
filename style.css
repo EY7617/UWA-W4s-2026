@@ -121,7 +121,7 @@ nav .fa-solid{
 .sub-header{
     width: 100%;
     min-height: 50vh;
-    background-color: rgb(191, 200, 149);
+    background-color: rgb(149, 200, 196);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -147,6 +147,9 @@ table, th, td {
 
 tr:nth-child(even) {
   background-color: #8dd19c;
+}
+tr:nth-child(odd) {
+  background-color: #bcd7c2;
 }
 
 tr:hover {background-color: #ece67d;}
