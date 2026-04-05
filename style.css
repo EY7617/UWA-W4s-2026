@@ -326,3 +326,27 @@ table {
     }
 
 }
+/* Section for gallery */
+.gallery-container {
+    background-color: #fff;
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        width: 100%;
+        padding: 5px;
+    }
+}
+.gallery-column {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+@media (max-width: 700px){
+    .gallery-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
