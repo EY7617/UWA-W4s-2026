@@ -343,7 +343,7 @@ table {
     flex-direction: column;
     padding: 5px;
 }
-@media (max-width: 700px){
+@media only screen and (max-width: 770px){
     .gallery-container {
         display: flex;
         flex-direction: column;
