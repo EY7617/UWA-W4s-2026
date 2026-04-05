@@ -166,8 +166,8 @@ table {
 
 /* Section for turf fees */
 iframe {
-  width: 90%;
-  height: 800px;
+  width: auto;
+  height: auto;
   border: none;
   margin-top: 20px;
 }
