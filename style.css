@@ -125,7 +125,7 @@ nav .fa-solid{
     text-align: center;
     color: black;
     h1{
-        font-size: 40px;
+        font-size: 45px;
         font-family: "Saira Stencil", sans-serif;
         padding-top: 20px;
     }
@@ -196,9 +196,10 @@ table {
     text-align: center;
     color: black;
     h1{
-        font-size: 40px;
+        font-size: 45px;
         font-family: "Saira Stencil", sans-serif;
         padding-top: 20px;
+        color: #fff;
     }
     h3{
         font-size: 20px;
