@@ -330,10 +330,12 @@ table {
 img{
     width: 100%;
     padding: 5px;
+    vertical-align: middle;
 }
 .gallery-container {
     background-color: #fff;
     display : flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -342,6 +344,7 @@ img{
 }
 .gallery-column {
     display: flex;
+    flex: 33.33%;
     flex-direction: column;
     padding: 5px;
 }
@@ -351,5 +354,6 @@ img{
         flex-direction: column;
         justify-content: space-between;
         max-width: 100%;
+
     }
 }
