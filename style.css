@@ -170,6 +170,59 @@ table {
 .caution {
   font-size: 12px;
 }
+.fixtures {
+    width: 100%;
+    min-height: 10vh;
+    background: linear-gradient(180deg,rgb(104, 174, 202) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: black;
+    h1{
+        font-size: 45px;
+        font-family: "Saira Stencil", sans-serif;
+        padding-top: 20px;
+    }
+    h3{
+        font-size: 20px;
+        font-family: "Saira Stencil", sans-serif;
+        padding-top: 20px;
+    }
+    p{
+        font-size: 20px;
+        font-family: "Roboto", sans-serif;
+        padding-top: 10px;
+    }
+
+}
+.events {
+    width: 100%;
+    min-height: 10vh;
+    background: rgba(237, 221, 83, 1);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: black;
+    h1{
+        font-size: 45px;
+        font-family: "Saira Stencil", sans-serif;
+        padding-top: 20px;
+    }
+    h3{
+        font-size: 20px;
+        font-family: "Saira Stencil", sans-serif;
+        padding-top: 20px;
+    }
+    p{
+        font-size: 20px;
+        font-family: "Roboto", sans-serif;
+        padding-top: 10px;
+    }
+
+}
+
 
 /* Section for turf fees */
 .iframe-container {
