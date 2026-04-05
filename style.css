@@ -170,15 +170,11 @@ table {
 
 /* Section for turf fees */
 .container {
-    display: grid;
-    place-items: center;
-    width: 70%;
-    max-width: 100%;
-    height: 100vh;
+   width: 100%;
+    text-align: center;
 }
 
-iframe{
-    width: 100%;
-    height: 500px;
-    border: none;
+.container iframe{
+    margin: 0 auto;
+    display: block;
 }
