@@ -120,7 +120,7 @@ nav .fa-solid{
 /* Section for non-main pages */
 .sub-header{
     width: 100%;
-    min-height: 50vh;
+    min-height: 30vh;
     background-color: rgb(200, 149, 197);
     background-position: center;
     background-size: cover;
@@ -188,7 +188,7 @@ table {
 .fee_graph {
     width: 100%;
     min-height: 50vh;
-    background-color: #fff;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
     background-position: center;
     background-size: cover;
     position: relative;
