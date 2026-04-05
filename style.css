@@ -337,6 +337,7 @@ img{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    max-width: 100%;
 
 }
 .gallery-column {
@@ -349,5 +350,6 @@ img{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        max-width: 100%;
     }
 }
