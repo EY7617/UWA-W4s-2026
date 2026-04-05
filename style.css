@@ -197,8 +197,10 @@ table {
 
 }
 .events {
-    width: 100%;
+    width: 80%;
     min-height: 10vh;
+    margin: auto;
+    padding-top: 50px;
     background: rgba(237, 221, 83, 1);
     background-position: center;
     background-size: cover;
