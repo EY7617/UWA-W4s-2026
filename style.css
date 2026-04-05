@@ -164,16 +164,16 @@ table {
   font-size: 12px;
 }
 
-/* Section for turf fees */
+/* Section for turf fees 
 .iframe-container {
     width: 80%;
     max-width: 100%;
-    height: 600px;
+    height: 500px;
 }
 
 iframe {
     width: 80%;
-    height: 600px;
+    height: 500px;
     border: none;
 }
 
@@ -186,4 +186,18 @@ iframe {
         height: 1000px;
         width: 100%;
     }
+}
+*/
+
+.container {
+    width: 80%;
+    max-width: 100%;
+    height: 500px;
+    margin: auto;
+}
+
+.iframe{
+    width: 700px;
+    height: 1000px;
+    border: none;
 }
