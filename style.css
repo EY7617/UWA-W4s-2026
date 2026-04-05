@@ -152,9 +152,9 @@ nav .fa-solid{
     margin-bottom: 5%;
     padding: 20px 12px;
     border-radius: 10px;
-    text-align: center;
-    h2{
-        font-size: 25px;
+    text-align: left;
+    h3{
+        font-size: 18px;
         font-family: "Saira Stencil", sans-serif;
         margin-bottom: 10px;
     }
