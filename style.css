@@ -225,6 +225,20 @@ table {
 
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.column {
+    flex-basis: 31%;
+    background: #8dd19c;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
 
 /* Section for turf fees */
 .iframe-container {
