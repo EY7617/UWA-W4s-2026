@@ -168,20 +168,20 @@ table {
 .iframe-container {
     width: 100%;
     max-width: 100%;
-    min-height: 900px;
+    height: 950px;
 }
 
 .iframe-container iframe {
     width: 100%;
-    min-height: 900px;
+    height: 950px;
     border: none;
 }
 
 @media (min-width: 700px) {
     .iframe-container {
-        min-height: 1000px;
+        height: 1000px;
     }
     .iframe-container iframe {
-        min-height: 1000px;
+        height: 1000px;
     }
 }
