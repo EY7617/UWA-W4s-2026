@@ -138,6 +138,27 @@ nav .fa-solid{
         padding-top: 10px;
     }
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.contact-card{
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    background-color: rgb(149, 163, 200);
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    border-radius: 10px;
+    text-align: center;
+    h2{
+        font-size: 25px;
+        font-family: "Saira Stencil", sans-serif;
+        margin-bottom: 10px;
+    }
+}
 
 /* Section for fixtures */
 table, th, td {
